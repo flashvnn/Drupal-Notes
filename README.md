@@ -3,14 +3,14 @@ Drupal-Notes
 
 ##Drush Commands
 
-Export Database to File
+**Export Database to File**
 
 
 > drush cc
 >
 > drush sql-dump > ~/my-sql-dump-file-name.sql
 
-Import Database
+**Import Database**
 
 > drush sql-drop
 >
