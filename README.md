@@ -1,7 +1,7 @@
 Drupal-Notes
 ============
 
-##Drush Commands
+###Drush Commands
 
 **Export Database to File**
 
@@ -15,3 +15,12 @@ Drupal-Notes
 > drush sql-drop
 >
 > drush sql-cli < ~/my-sql-dump-file-name.sql
+
+### Redis
+
+**Clear all database**
+With redis-cli
+
+> FLUSHDB       - Removes data from your connection's CURRENT database.
+
+> FLUSHALL      - Removes data from ALL databases.
